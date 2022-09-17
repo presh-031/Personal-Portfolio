@@ -64,7 +64,7 @@ body {
   text-decoration: underline;
 }
 // Footer-Links section
-footer {
+.footer {
   display: flex;
   justify-content: space-around;
   // outline: 1px solid blue;
@@ -76,9 +76,19 @@ footer {
     border-radius: 50%;
     overflow: hidden;
     padding: 1rem;
+    cursor: pointer;
   }
   .fa-brands,
   .fa-regular {
     font-size: 30px;
+  }
+}
+// Footer
+footer {
+  display: grid;
+  place-items: center;
+  padding: 0.5rem;
+  a {
+    color: inherit;
   }
 }
