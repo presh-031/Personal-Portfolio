@@ -128,12 +128,18 @@ body {
 
 .logo {
   position: absolute;
-  top: 5px;
+  // top: 5px;
   right: 15px;
   font-size: 1.2rem;
   // color: #0e2431;
   color: #fff;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
+// .logo h1 {
+//   outline: 1px solid red;
+// }
 
 .nav-container input[type="checkbox"]:checked ~ .menu-items {
   transform: translateX(0);
