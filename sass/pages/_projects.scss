@@ -3,22 +3,58 @@
   background-color: #ddd;
   color: #333;
   .projects-section {
+    margin-top: 5rem;
     .project {
+      padding: 0.5rem;
       width: 30rem;
       // height: 10rem;
       margin: 0 auto;
       border: 1px solid red;
       div:first-of-type {
+        outline: 1px solid red;
         img {
           width: 100%;
-          // height: 100%;
+          height: 100%;
           outline: 1px solid red;
           object-fit: cover;
         }
       }
-      .projects-section {
+      .description {
         outline: 1px solid red;
-        height: 20rem;
+        // height: 20rem;
+        .title {
+          font-size: 2rem;
+          // outline: 1px solid red;
+          text-align: center;
+        }
+        .underlined {
+          text-decoration: underline;
+          margin-left: 1rem;
+        }
+        .tools {
+          list-style-type: none;
+          display: flex;
+          // outline: 1px solid red;
+          flex-wrap: wrap;
+          row-gap: 0.8rem;
+          justify-content: space-around;
+          li {
+            // outline: 1px solid blue;
+          }
+          .bold {
+            font-weight: 600;
+          }
+        }
+        .features {
+          // text-align: justify;
+          outline: 1px solid red;
+          padding: 0 0 0 2rem;
+        }
+        .links {
+          text-align: center;
+          a:first-of-type {
+          }
+        }
       }
     }
   }
