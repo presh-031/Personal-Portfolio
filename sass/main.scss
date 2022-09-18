@@ -16,17 +16,21 @@ html {
   font-size: 62.5%;
   color: $light;
   // footer support
-  position: relative;
-  min-height: 100%;
+  // position: relative;
+  // min-height: 100%;
   // border: 10px solid red;
 }
+
 .home-page {
   background-color: #333;
   // footer-support
   // margin-bottom: 100px;
-  margin-bottom: 50px;
   .overall {
     // Main-section
+    height: calc(100vh - 62px);
+    outline: 1px solid red;
+    padding-top: 2rem;
+    // position: relative;
     .hello {
       text-align: center;
       margin-top: 5rem;
@@ -35,7 +39,7 @@ html {
       // outline: 1px solid red;
       padding-left: 2rem;
       list-style-type: square;
-      margin-top: 2rem;
+      // margin-top: 2rem;
       ::marker {
         font-size: 1.5rem;
       }
@@ -70,26 +74,6 @@ html {
     .underlined {
       text-decoration: underline;
     }
-    // // Footer-Links section
-    // .links {
-    //   display: flex;
-    //   justify-content: space-around;
-    //   outline: 5px solid blue;
-    //   background-color: #ddd;
-    //   padding: 1rem 0;
-    //   div {
-    //     // outline: 1px solid red;
-    //     background-color: #333;
-    //     border-radius: 50%;
-    //     overflow: hidden;
-    //     padding: 1.5rem;
-    //     cursor: pointer;
-    //   }
-    //   .fa-brands,
-    //   .fa-regular {
-    //     font-size: 50px;
-    //   }
-    // }
   }
 
   // Footer
@@ -100,22 +84,27 @@ html {
     // outline: 1px solid red;
     bottom: 0;
     // footer support
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+    // position: absolute;
+    // bottom: 0;
+    // left: 0;
+    // width: 100%;
     a {
       color: inherit;
     }
   }
 }
 // Footer-Links section
+
 .links {
   display: flex;
   justify-content: space-around;
   // outline: 1px solid blue;
   background-color: #ddd;
   padding: 1rem 0;
+  outline: 1px solid red;
+  // position: absolute;
+  // width: 100%;
+  // bottom: 0;
   div {
     // outline: 1px solid red;
     background-color: #333;
@@ -129,4 +118,9 @@ html {
   .fa-regular {
     font-size: 50px;
   }
+}
+.homepage-links {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
