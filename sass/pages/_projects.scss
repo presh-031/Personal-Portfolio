@@ -64,9 +64,13 @@
           padding: 0 0 0 2rem;
           li {
             font-size: 1.2rem;
+            ul {
+              // outline: 1px solid red;
+              margin-left: 2rem;
+            }
           }
         }
-        .links {
+        .project-links {
           text-align: center;
           margin-top: 2rem;
           a {
@@ -91,5 +95,24 @@
         }
       }
     }
-  }
+  } // Footer-Links section
+  // .links {
+  //   display: flex;
+  //   justify-content: space-around;
+  //   outline: 1px solid blue;
+  //   // background-color: #ddd;
+  //   padding: 1rem 0;
+  //   div {
+  //     outline: 1px solid red;
+  //     background-color: #333;
+  //     border-radius: 50%;
+  //     overflow: hidden;
+  //     padding: 1.5rem;
+  //     cursor: pointer;
+  //   }
+  //   .fa-brands,
+  //   .fa-regular {
+  //     font-size: 50px;
+  //   }
+  // }
 }

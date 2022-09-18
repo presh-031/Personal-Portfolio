@@ -70,26 +70,26 @@ html {
     .underlined {
       text-decoration: underline;
     }
-    // Footer-Links section
-    .links {
-      display: flex;
-      justify-content: space-around;
-      // outline: 1px solid blue;
-      background-color: #ddd;
-      padding: 1rem 0;
-      div {
-        // outline: 1px solid red;
-        background-color: #333;
-        border-radius: 50%;
-        overflow: hidden;
-        padding: 1rem;
-        cursor: pointer;
-      }
-      .fa-brands,
-      .fa-regular {
-        font-size: 30px;
-      }
-    }
+    // // Footer-Links section
+    // .links {
+    //   display: flex;
+    //   justify-content: space-around;
+    //   outline: 5px solid blue;
+    //   background-color: #ddd;
+    //   padding: 1rem 0;
+    //   div {
+    //     // outline: 1px solid red;
+    //     background-color: #333;
+    //     border-radius: 50%;
+    //     overflow: hidden;
+    //     padding: 1.5rem;
+    //     cursor: pointer;
+    //   }
+    //   .fa-brands,
+    //   .fa-regular {
+    //     font-size: 50px;
+    //   }
+    // }
   }
 
   // Footer
@@ -107,5 +107,26 @@ html {
     a {
       color: inherit;
     }
+  }
+}
+// Footer-Links section
+.links {
+  display: flex;
+  justify-content: space-around;
+  // outline: 1px solid blue;
+  background-color: #ddd;
+  padding: 1rem 0;
+  div {
+    // outline: 1px solid red;
+    background-color: #333;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 1.5rem;
+    cursor: pointer;
+    color: #ddd;
+  }
+  .fa-brands,
+  .fa-regular {
+    font-size: 50px;
   }
 }
