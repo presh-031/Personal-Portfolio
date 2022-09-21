@@ -46,7 +46,7 @@ body {
         font-size: 1.5rem;
       }
       &__name {
-        font-size: 2rem;
+        font-size: 4rem;
         margin-bottom: 0.5rem;
       }
       &__role {
@@ -54,7 +54,6 @@ body {
       }
     }
     .homepage-links {
-      // outline: 1px solid red;
       display: flex;
       flex-direction: column;
       margin-top: 4rem;
@@ -62,6 +61,7 @@ body {
       column-gap: 2rem;
       font-size: 0.8rem;
       list-style-type: none;
+      outline: 1px solid red;
       div:first-of-type {
         display: flex;
         justify-content: center;
@@ -71,6 +71,14 @@ body {
       div:last-of-type {
         display: flex;
         justify-content: center;
+      }
+      div {
+        li {
+          a {
+            color: inherit;
+            font-size: 2rem;
+          }
+        }
       }
     }
     .underlined {
